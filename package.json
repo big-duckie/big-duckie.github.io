@@ -1,0 +1,26 @@
+{
+  "name": "skyrim-gems",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "scripts": {
+    "start": "env=PROD pug3 src/pages -o public --pretty -O options.js",
+    "dev": "env=DEV nodemon --watch src -e js,pug,json,scss --exec \"pug3 src/pages -o dev --pretty -O options.js\""
+  },
+  "keywords": [
+    "pug",
+    "pug-cli",
+    "node",
+    "marked"
+  ],
+  "author": "Big Duckie",
+  "license": "MIT",
+  "dependencies": {
+    "@anduh/pug-cli": "^1.0.0-alpha8",
+    "fs-extra": "^10.0.0",
+    "marked": "^4.0.5",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2",
+    "sass": "^1.51.0"
+  }
+}

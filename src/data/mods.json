@@ -1,0 +1,180 @@
+{
+  "mods": [
+    {
+      "name": "Content Patcher",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1915"
+    },
+    {
+      "name": "Custom Music",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3043"
+    },
+    {
+      "name": "Custom NPC Exclusions",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7089"
+    },
+    {
+      "name": "Daily Screenshot",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/4779"
+    },
+    {
+      "name": "Dynamic Night Time",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2072"
+    },
+    {
+      "name": "Elle's Cat Replacements",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3872"
+    },
+    {
+      "name": "Elle's Dog Replacements",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3871"
+    },
+    {
+      "name": "Elle's New Barn Animals",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3167"
+    },
+    {
+      "name": "Elle's New Coop Animals",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3168"
+    },
+    {
+      "name": "Elle's Seasonal Buildings",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1993"
+    },
+    {
+      "name": "Elle's Town Animals",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1965"
+    },
+    {
+      "name": "Ellie's Ideal Greenhouse",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7497"
+    },
+    {
+      "name": "Expanded Preconditions Utility",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/6529"
+    },
+    {
+      "name": "Extra Map Layers",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/9633"
+    },
+    {
+      "name": "Farm Type Manager",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3231"
+    },
+    {
+      "name": "Fruits and Veggies",
+      "type": "ja",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1598"
+    },
+    {
+      "name": "Greenhouse Sprinklers",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7456"
+    },
+    {
+      "name": "Json Assets",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1720"
+    },
+    {
+      "name": "Lookup Anything",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/541"
+    },
+    {
+      "name": "Mail Framework Mod",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1536"
+    },
+    {
+      "name": "Mail Services Mod",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7842"
+    },
+    {
+      "name": "Mizu's Flowers",
+      "type": "ja",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2028"
+    },
+    {
+      "name": "More Trees",
+      "type": "ja",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1671"
+    },
+    {
+      "name": "NPC Map Locations",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/239"
+    },
+    {
+      "name": "PyTK",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1726"
+    },
+    {
+      "name": "SAAT",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/10747"
+    },
+    {
+      "name": "Seasonal Cute Characters",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5450"
+    },
+    {
+      "name": "Seasonal Cute Characters - SVE",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5969"
+    },
+    {
+      "name": "Shop Tile Framework",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5005"
+    },
+    {
+      "name": "SpaceCore",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1348"
+    },
+    {
+      "name": "Sounds of Yoba",
+      "type": "cm",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3098"
+    },
+    {
+      "name": "Spouses React to Player Death",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7493"
+    },
+    {
+      "name": "Stardew Valley Expanded",
+      "type": "cp+ftm+ja+saat+stf",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3753"
+    },
+    {
+      "name": "StardewHack",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3213"
+    },
+    {
+      "name": "Tractor Mod",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1401"
+    },
+    {
+      "name": "Tractor Sounds",
+      "type": "cm",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5781"
+    },
+    {
+      "name": "UI Info Suite",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1150"
+    },
+    {
+      "name": "Wear More Rings",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3214"
+    },
+    {
+      "name": "Wind Effects",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/6647"
+    },
+    {
+      "name": "Winter Grass",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1601"
+    }
+  ]
+}
