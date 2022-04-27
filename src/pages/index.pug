@@ -1,0 +1,364 @@
+doctype html
+//-
+  Dimension by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+html(lang='en')
+  head
+    title Big Duckie
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+    link(rel='stylesheet', href='assets/css/main.css')
+    noscript
+      link(rel='stylesheet', href='assets/css/noscript.css')
+  body.is-preload
+    //- Wrapper
+    #wrapper
+      //- Header
+      header#header
+        .logo
+          img(src="assets/images/avatar.png")
+          //-span.icon.fa-gem
+        .content
+          .inner
+            h1 Big Duckie
+            p An irregular streamer.
+        nav
+          ul
+            li
+              a(href='https://www.twitch.tv/thebigduckie_', target="_blank") Twitch
+            li
+              a(href='https://twitter.com/TheBigDuckie', target="_blank") Twitter
+            li
+              a(href='https://theduckpond.club/') Duck Pond
+            //- <li><a href="#elements">Elements</a></li>
+        nav
+          ul
+            li
+              a(href='#sdv-mods') SDV Mods
+      //- Main
+      #main
+        //- SDV Mods
+        article#sdv-mods
+          h2.major Stardew Valley Mods
+          p This is a full list of all the mods I use on Twitch.
+          .table-wrapper
+            table
+              thead
+                tr
+                  th Mod Name
+                  th.text-center.flag
+                    a(title="Content Patcher", href="https://www.nexusmods.com/stardewvalley/mods/1915") CP
+                  th.text-center.flag
+                    a(title="Json Assets", href="https://www.nexusmods.com/stardewvalley/mods/1720") JA
+                  th.text-center.flag
+                    a(title="Custom Music", href="https://www.nexusmods.com/stardewvalley/mods/3043") CM
+                  th.text-center.flag
+                    a(title="Farm Type Manager", href="https://www.nexusmods.com/stardewvalley/mods/3231") FTM
+                  th.text-center.flag
+                    a(title="Audio Api and Toolkit", href="https://www.nexusmods.com/stardewvalley/mods/10747") SAAT
+                  th.text-center.flag
+                    a(title="Shop Tile Framework", href="https://www.nexusmods.com/stardewvalley/mods/5005") STF
+              tbody
+                for mod in mods
+                  tr
+                    td
+                      a(href=mod.url, target="_blank")= mod.name
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("cp")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("ja")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("cm")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("ftm")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("saat")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("stf")
+                          i.fa.fa-check
+        //- Work
+        //-article#work
+          h2.major Work
+          span.image.main
+            img(src='images/pic02.jpg', alt='')
+          p
+            | Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
+          p
+            | Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.
+        //- About
+        //-article#about
+          h2.major About
+          span.image.main
+            img(src='images/pic03.jpg', alt='')
+          p
+            | Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.
+        //- Contact
+        //-article#contact
+          h2.major Contact
+          form(method='post', action='#')
+            .fields
+              .field.half
+                label(for='name') Name
+                input#name(type='text', name='name')
+              .field.half
+                label(for='email') Email
+                input#email(type='text', name='email')
+              .field
+                label(for='message') Message
+                textarea#message(name='message', rows='4')
+            ul.actions
+              li
+                input.primary(type='submit', value='Send Message')
+              li
+                input(type='reset', value='Reset')
+          ul.icons
+            li
+              a.icon.brands.fa-twitter(href='#')
+                span.label Twitter
+            li
+              a.icon.brands.fa-facebook-f(href='#')
+                span.label Facebook
+            li
+              a.icon.brands.fa-instagram(href='#')
+                span.label Instagram
+            li
+              a.icon.brands.fa-github(href='#')
+                span.label GitHub
+        //- Elements
+        //-article#elements
+          h2.major Elements
+          section
+            h3.major Text
+            p
+              | This is 
+              b bold
+              |  and this is 
+              strong strong
+              | . This is 
+              i italic
+              |  and this is 
+              em emphasized
+              | .
+              | This is 
+              sup superscript
+              |  text and this is 
+              sub subscript
+              |  text.
+              | This is 
+              u underlined
+              |  and this is code: 
+              code for (;;) { ... }
+              | . Finally, 
+              a(href='#') this is a link
+              | .
+            hr
+            h2 Heading Level 2
+            h3 Heading Level 3
+            h4 Heading Level 4
+            h5 Heading Level 5
+            h6 Heading Level 6
+            hr
+            h4 Blockquote
+            blockquote
+              | Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
+            h4 Preformatted
+            pre.
+          section
+            h3.major Lists
+            h4 Unordered
+            ul
+              li Dolor pulvinar etiam.
+              li Sagittis adipiscing.
+              li Felis enim feugiat.
+            h4 Alternate
+            ul.alt
+              li Dolor pulvinar etiam.
+              li Sagittis adipiscing.
+              li Felis enim feugiat.
+            h4 Ordered
+            ol
+              li Dolor pulvinar etiam.
+              li Etiam vel felis viverra.
+              li Felis enim feugiat.
+              li Dolor pulvinar etiam.
+              li Etiam vel felis lorem.
+              li Felis enim et feugiat.
+            h4 Icons
+            ul.icons
+              li
+                a.icon.brands.fa-twitter(href='#')
+                  span.label Twitter
+              li
+                a.icon.brands.fa-facebook-f(href='#')
+                  span.label Facebook
+              li
+                a.icon.brands.fa-instagram(href='#')
+                  span.label Instagram
+              li
+                a.icon.brands.fa-github(href='#')
+                  span.label Github
+            h4 Actions
+            ul.actions
+              li
+                a.button.primary(href='#') Default
+              li
+                a.button(href='#') Default
+            ul.actions.stacked
+              li
+                a.button.primary(href='#') Default
+              li
+                a.button(href='#') Default
+          section
+            h3.major Table
+            h4 Default
+            .table-wrapper
+              table
+                thead
+                  tr
+                    th Name
+                    th Description
+                    th Price
+                tbody
+                  tr
+                    td Item One
+                    td Ante turpis integer aliquet porttitor.
+                    td 29.99
+                  tr
+                    td Item Two
+                    td Vis ac commodo adipiscing arcu aliquet.
+                    td 19.99
+                  tr
+                    td Item Three
+                    td  Morbi faucibus arcu accumsan lorem.
+                    td 29.99
+                  tr
+                    td Item Four
+                    td Vitae integer tempus condimentum.
+                    td 19.99
+                  tr
+                    td Item Five
+                    td Ante turpis integer aliquet porttitor.
+                    td 29.99
+                tfoot
+                  tr
+                    td(colspan='2')
+                    td 100.00
+            h4 Alternate
+            .table-wrapper
+              table.alt
+                thead
+                  tr
+                    th Name
+                    th Description
+                    th Price
+                tbody
+                  tr
+                    td Item One
+                    td Ante turpis integer aliquet porttitor.
+                    td 29.99
+                  tr
+                    td Item Two
+                    td Vis ac commodo adipiscing arcu aliquet.
+                    td 19.99
+                  tr
+                    td Item Three
+                    td  Morbi faucibus arcu accumsan lorem.
+                    td 29.99
+                  tr
+                    td Item Four
+                    td Vitae integer tempus condimentum.
+                    td 19.99
+                  tr
+                    td Item Five
+                    td Ante turpis integer aliquet porttitor.
+                    td 29.99
+                tfoot
+                  tr
+                    td(colspan='2')
+                    td 100.00
+          section
+            h3.major Buttons
+            ul.actions
+              li
+                a.button.primary(href='#') Primary
+              li
+                a.button(href='#') Default
+            ul.actions
+              li
+                a.button(href='#') Default
+              li
+                a.button.small(href='#') Small
+            ul.actions
+              li
+                a.button.primary.icon.solid.fa-download(href='#') Icon
+              li
+                a.button.icon.solid.fa-download(href='#') Icon
+            ul.actions
+              li
+                span.button.primary.disabled Disabled
+              li
+                span.button.disabled Disabled
+          section
+            h3.major Form
+            form(method='post', action='#')
+              .fields
+                .field.half
+                  label(for='demo-name') Name
+                  input#demo-name(type='text', name='demo-name', value='', placeholder='Jane Doe')
+                .field.half
+                  label(for='demo-email') Email
+                  input#demo-email(type='email', name='demo-email', value='', placeholder='jane@untitled.tld')
+                .field
+                  label(for='demo-category') Category
+                  select#demo-category(name='demo-category')
+                    option(value='') -
+                    option(value='1') Manufacturing
+                    option(value='1') Shipping
+                    option(value='1') Administration
+                    option(value='1') Human Resources
+                .field.half
+                  input#demo-priority-low(type='radio', name='demo-priority', checked='')
+                  label(for='demo-priority-low') Low
+                .field.half
+                  input#demo-priority-high(type='radio', name='demo-priority')
+                  label(for='demo-priority-high') High
+                .field.half
+                  input#demo-copy(type='checkbox', name='demo-copy')
+                  label(for='demo-copy') Email me a copy
+                .field.half
+                  input#demo-human(type='checkbox', name='demo-human', checked='')
+                  label(for='demo-human') Not a robot
+                .field
+                  label(for='demo-message') Message
+                  textarea#demo-message(name='demo-message', placeholder='Enter your message', rows='6')
+              ul.actions
+                li
+                  input.primary(type='submit', value='Send Message')
+                li
+                  input(type='reset', value='Reset')
+      //- Footer
+      footer#footer
+        p.copyright
+          | &copy; The Duck Pond. Design by: 
+          a(href='https://html5up.net') HTML5 UP
+          |  and Big Duckie
+    //- BG
+    #bg
+    //- Scripts
+    script(src='assets/js/jquery.min.js')
+    script(src='assets/js/browser.min.js')
+    script(src='assets/js/breakpoints.min.js')
+    script(src='assets/js/util.js')
+    script(src='assets/js/main.js')
