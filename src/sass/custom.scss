@@ -1,0 +1,34 @@
+#particles-js {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #17181e;
+}
+
+#particles-js>canvas {
+    opacity: 0;
+}
+
+span.avatar>img {
+    width: 122px;
+    height: 122px;
+}
+
+a:hover {
+    color: #5CA3CC;
+}
+
+ul.icons li a:hover {
+    border-color: #437795;
+}
+
+ul.icons li a:before {
+    color: #414f57;
+    text-shadow: none;
+}
+
+ul.icons li a:hover:before {
+    text-shadow: 1.25px 0px 0px #5CA3CC, -1.25px 0px 0px #5CA3CC, 0px 1.25px 0px #5CA3CC, 0px -1.25px 0px #5CA3CC;
+}
