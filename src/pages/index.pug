@@ -14,12 +14,11 @@ html(lang="en")
     link(rel="stylesheet", href="assets/css/custom.css")
     script(src="https://kit.fontawesome.com/86ff082c1b.js", crossorigin="anonymous")
   body.is-preload
-    #particles-js
     //- <div id="wrapper-absolute">
     //- Wrapper
     #wrapper
       //- Main
-      header#header
+      #header
         header
           span.avatar
             img(src="assets/images/avatar.png", alt="")
@@ -38,9 +37,62 @@ html(lang="en")
           ul.actions.special
             li
               a.button(href="#sdv-mods") SDV Mods
+      #main
         article#sdv-mods
-          h2.major Stardew Valley Mods
+          h1.major Stardew Valley Mods
           p This is a full list of all the mods I use on Twitch.
+          .table-wrapper
+            table
+              thead
+                tr
+                  th Mod Name
+                  th.text-center.flag
+                    abbr(title="Content Patcher")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/1915") CP
+                  th.text-center.flag
+                    abbr(title="Json Assets")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/1720") JA
+                  th.text-center.flag
+                    abbr(title="Custom Music")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/3043") CM
+                  th.text-center.flag
+                    abbr(title="Farm Type Manager")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/3231") FTM
+                  th.text-center.flag
+                    abbr(title="Audio Api and Toolkit")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/10747") SAAT
+                  th.text-center.flag
+                    abbr(title="Shop Tile Framework")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/5005") STF
+              tbody
+                for mod in mods
+                  tr
+                    td
+                      a(href=mod.url, target="_blank")= mod.name
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("cp")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("ja")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("cm")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("ftm")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("saat")
+                          i.fa.fa-check
+                    td.text-center
+                      if mod.type
+                        if mod.type.includes("stf")
+                          i.fa.fa-check
       //- Footer
       footer#footer
         ul.copyright
