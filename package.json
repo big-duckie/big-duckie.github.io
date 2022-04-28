@@ -5,7 +5,11 @@
   "repository": "",
   "scripts": {
     "start": "env=PROD pug3 src/pages -o public --pretty -O options.js",
+<<<<<<< HEAD
     "dev": "env=DEV nodemon --watch src -e js,pug,json --exec \"pug3 src/pages -o dev --pretty -O options.js\""
+=======
+    "dev": "env=DEV nodemon --watch src -e js,pug,json,scss --exec \"pug3 src/pages -o dev --pretty -O options.js\""
+>>>>>>> dev
   },
   "keywords": [
     "pug",
@@ -20,6 +24,11 @@
     "fs-extra": "^10.0.0",
     "marked": "^4.0.5",
     "nodemon": "^2.0.15",
+<<<<<<< HEAD
     "pug": "^3.0.2"
+=======
+    "pug": "^3.0.2",
+    "sass": "^1.51.0"
+>>>>>>> dev
   }
 }

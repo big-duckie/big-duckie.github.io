@@ -1,5 +1,6 @@
 doctype html
 //-
+<<<<<<< HEAD
   Dimension by HTML5 UP
   html5up.net | @ajlkn
   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
@@ -41,6 +42,48 @@ html(lang='en')
         //- SDV Mods
         article#sdv-mods
           h2.major Stardew Valley Mods
+=======
+  Identity by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Big Duckie
+    link(rel="stylesheet", href="assets/css/main.css")
+    noscript
+      link(rel="stylesheet", href="assets/css/noscript.css")
+    link(rel="stylesheet", href="assets/css/custom.css")
+    script(src="https://kit.fontawesome.com/86ff082c1b.js", crossorigin="anonymous")
+  body.is-preload
+    //- <div id="wrapper-absolute">
+    //- Wrapper
+    #wrapper
+      //- Main
+      #header
+        header
+          span.avatar
+            img(src="assets/images/avatar.png", alt="")
+          h1 Big Duckie
+          p Irregular Streamer
+        footer
+          ul.icons
+            li
+              a.icon.brands.fa-twitch(href="https://www.twitch.tv/thebigduckie_") Twitch
+            li
+              a.icon.brands.fa-youtube(href="https://youtube.com/channel/UCj3pIAY1nAbDjVcoWrWMA1Q") YouTube
+            li
+              a.icon.brands.fa-twitter(href="https://twitter.com/TheBigDuckie") Twitter
+        hr
+        section
+          ul.actions.special
+            li
+              a.button(href="#sdv-mods") SDV Mods
+      #main
+        article#sdv-mods
+          h1.major Stardew Valley Mods
+>>>>>>> dev
           p This is a full list of all the mods I use on Twitch.
           .table-wrapper
             table
@@ -48,6 +91,7 @@ html(lang='en')
                 tr
                   th Mod Name
                   th.text-center.flag
+<<<<<<< HEAD
                     a(title="Content Patcher", href="https://www.nexusmods.com/stardewvalley/mods/1915") CP
                   th.text-center.flag
                     a(title="Json Assets", href="https://www.nexusmods.com/stardewvalley/mods/1720") JA
@@ -59,6 +103,25 @@ html(lang='en')
                     a(title="Audio Api and Toolkit", href="https://www.nexusmods.com/stardewvalley/mods/10747") SAAT
                   th.text-center.flag
                     a(title="Shop Tile Framework", href="https://www.nexusmods.com/stardewvalley/mods/5005") STF
+=======
+                    abbr(title="Content Patcher")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/1915") CP
+                  th.text-center.flag
+                    abbr(title="Json Assets")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/1720") JA
+                  th.text-center.flag
+                    abbr(title="Custom Music")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/3043") CM
+                  th.text-center.flag
+                    abbr(title="Farm Type Manager")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/3231") FTM
+                  th.text-center.flag
+                    abbr(title="Audio Api and Toolkit")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/10747") SAAT
+                  th.text-center.flag
+                    abbr(title="Shop Tile Framework")
+                      a(href="https://www.nexusmods.com/stardewvalley/mods/5005") STF
+>>>>>>> dev
               tbody
                 for mod in mods
                   tr
@@ -88,6 +151,7 @@ html(lang='en')
                       if mod.type
                         if mod.type.includes("stf")
                           i.fa.fa-check
+<<<<<<< HEAD
         //- Work
         //-article#work
           h2.major Work
@@ -362,3 +426,19 @@ html(lang='en')
     script(src='assets/js/breakpoints.min.js')
     script(src='assets/js/util.js')
     script(src='assets/js/main.js')
+=======
+      //- Footer
+      footer#footer
+        ul.copyright
+          li &copy; Big Duckie 2022
+          li
+            | Designed by 
+            a(href="http://html5up.net") HTML5 UP
+            |  and 
+            a(href="http://frostfire.io") Frostfire Media
+    //- </div>
+    //- Scripts
+    script(src="assets/js/jquery.min.js")
+    script(src="assets/js/particles.min.js")
+    script(src="assets/js/main.js")
+>>>>>>> dev
