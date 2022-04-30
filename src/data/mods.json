@@ -1,5 +1,15 @@
 {
   "mods": [
+  	{
+      "name": "Bathhouse Hot Spring",
+      "type": "cp",
+      "url": "https://community.playstarbound.com/threads/migrating-xnb-mods-to-content-patcher-packs.141577/#post-3258917"
+  	},
+    {
+      "name": "Bathhouse Running Water",
+      "type": "cm",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3758"
+    },
     {
       "name": "Content Patcher",
       "url": "https://www.nexusmods.com/stardewvalley/mods/1915"
@@ -73,8 +83,26 @@
       "url": "https://www.nexusmods.com/stardewvalley/mods/1598"
     },
     {
+      "name": "Generic Mod Config Menu",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5098"
+    },
+    {
+      "name": "Grampleton Fields",
+      "note": "Requires SDV Expanded.",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3753"
+    },
+    {
       "name": "Greenhouse Sprinklers",
       "url": "https://www.nexusmods.com/stardewvalley/mods/7456"
+    },
+    {
+      "name": "Harp of Yoba Redux",
+      "note": "Updated by me to fix Linux/Mac support.",
+      "url": "https://bigduckie.me/assets/files/HarpOfYobaRedux.zip"
+    },
+    {
+      "name": "Yet Another Harvest with Scythe Mod",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2731"
     },
     {
       "name": "Json Assets",
@@ -109,6 +137,10 @@
     {
       "name": "PyTK",
       "url": "https://www.nexusmods.com/stardewvalley/mods/1726"
+    },
+    {
+      "name": "Rented Tools",
+      "url": "https://community.playstarbound.com/threads/updating-mods-for-stardew-valley-1-4.156000/#post-3346341"
     },
     {
       "name": "SAAT",
@@ -161,8 +193,8 @@
       "url": "https://www.nexusmods.com/stardewvalley/mods/5781"
     },
     {
-      "name": "UI Info Suite",
-      "url": "https://www.nexusmods.com/stardewvalley/mods/1150"
+      "name": "UI Info Suite 2",
+      "url": "https://github.com/Annosz/UIInfoSuite2/releases"
     },
     {
       "name": "Wear More Rings",
@@ -170,7 +202,7 @@
     },
     {
       "name": "Wind Effects",
-      "url": "https://www.nexusmods.com/stardewvalley/mods/6647"
+      "url": "https://forums.stardewvalley.net/threads/unofficial-mod-updates.2096/page-60#post-41713"
     },
     {
       "name": "Winter Grass",

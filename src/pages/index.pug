@@ -69,6 +69,10 @@ html(lang="en")
                   tr
                     td
                       a(href=mod.url, target="_blank")= mod.name
+                      if mod.note
+                        sup.note(title=mod.note) [
+                          span note
+                          | ]
                     td.text-center
                       if mod.type
                         if mod.type.includes("cp")
