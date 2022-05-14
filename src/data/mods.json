@@ -1,5 +1,18 @@
 {
   "mods": [
+    {
+      "name": "Advanced Casks Mod",
+      "type": "ja+mfm",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8413"
+    },
+    {
+      "name": "Anti-Social NPCs",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/5371"
+    },
+    {
+      "name": "Automate",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/1063"
+    },
   	{
       "name": "Bathhouse Hot Spring",
       "type": "cp",
@@ -11,8 +24,35 @@
       "url": "https://www.nexusmods.com/stardewvalley/mods/3758"
     },
     {
+      "name": "Better Artisan Good Icons",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2080"
+    },
+    {
+      "name": "Better Panning",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/4161"
+    },
+    {
       "name": "Content Patcher",
       "url": "https://www.nexusmods.com/stardewvalley/mods/1915"
+    },
+    {
+      "name": "Crop Transplant Mod",
+      "type": "mfm",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2594"
+    },
+    {
+      "name": "Custom Cask Mod",
+      "type": "mfm",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2642"
+    },
+    {
+      "name": "Custom Companions",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/8626"
+    },
+    {
+      "name": "Custom Crystalarium Mod",
+      "type": "mfm",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2516"
     },
     {
       "name": "Custom Music",
@@ -21,6 +61,10 @@
     {
       "name": "Custom NPC Exclusions",
       "url": "https://www.nexusmods.com/stardewvalley/mods/7089"
+    },
+    {
+      "name": "Custom NPC Fixes",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/3849"
     },
     {
       "name": "Daily Screenshot",
@@ -66,6 +110,11 @@
       "url": "https://www.nexusmods.com/stardewvalley/mods/7497"
     },
     {
+      "name": "Everlasting Baits and Unbreakable Tackles",
+      "type": "mfm",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2360"
+    },
+    {
       "name": "Expanded Preconditions Utility",
       "url": "https://www.nexusmods.com/stardewvalley/mods/6529"
     },
@@ -109,8 +158,17 @@
       "url": "https://www.nexusmods.com/stardewvalley/mods/1720"
     },
     {
+      "name": "Line Sprinklers",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/2917"
+    },
+    {
       "name": "Lookup Anything",
       "url": "https://www.nexusmods.com/stardewvalley/mods/541"
+    },
+    {
+      "name": "Lunna - Astray in Stardew Valley",
+      "type": "asn+cp+cne+ftm+ja+stf",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/6626"
     },
     {
       "name": "Mail Framework Mod",
@@ -139,8 +197,17 @@
       "url": "https://www.nexusmods.com/stardewvalley/mods/1726"
     },
     {
+      "name": "Quest Framework",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/6414"
+    },
+    {
       "name": "Rented Tools",
+      "note": "Unofficial update",
       "url": "https://community.playstarbound.com/threads/updating-mods-for-stardew-valley-1-4.156000/#post-3346341"
+    },
+    {
+      "name": "Ridgeside Village",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7286"
     },
     {
       "name": "SAAT",
@@ -159,6 +226,10 @@
     {
       "name": "Shop Tile Framework",
       "url": "https://www.nexusmods.com/stardewvalley/mods/5005"
+    },
+    {
+      "name": "Show Birthdays",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/7495"
     },
     {
       "name": "SpaceCore",
@@ -180,17 +251,17 @@
       "url": "https://www.nexusmods.com/stardewvalley/mods/3753"
     },
     {
+      "name": "Sweet Gem Fruit",
+      "type": "cp",
+      "url": "https://www.nexusmods.com/stardewvalley/mods/4679"
+    },
+    {
       "name": "StardewHack",
       "url": "https://www.nexusmods.com/stardewvalley/mods/3213"
     },
     {
       "name": "Tractor Mod",
       "url": "https://www.nexusmods.com/stardewvalley/mods/1401"
-    },
-    {
-      "name": "Tractor Sounds",
-      "type": "cm",
-      "url": "https://www.nexusmods.com/stardewvalley/mods/5781"
     },
     {
       "name": "UI Info Suite 2",
