@@ -37,6 +37,9 @@ html(lang="en")
             li
               a.button(href="#sdv-mods") SDV Mods
               a.button(href="#tml-mods") TML Mods
+            li
+              a.button(href="#sb-mods") SB Mods
+
       #main
         article#sdv-mods
           h1.major Stardew Valley Mods
@@ -114,16 +117,30 @@ html(lang="en")
                         sup.note(title=mod.note) [
                           span note
                           | ]
+        article#sb-mods
+          h1.major Starbound Mods
+          p This is a full list of all the mods I use on Twitch.
+          .table-wrapper
+            table
+              thead
+                tr
+                  th Mod Name
+              tbody
+                for mod in sb_mods
+                  tr
+                    td
+                      a(href=mod.url, target="_blank")= mod.name
+                      if mod.note
+                        sup.note(title=mod.note) [
+                          span note
+                          | ]
       //- Footer
       footer#footer
         ul.copyright
           li &copy; Big Duckie 2022
           li
-            | Designed by 
+            | Design by 
             a(href="http://html5up.net") HTML5 UP
-            |  and 
-            a(href="http://frostfire.io") Frostfire Media
-    //- </div>
     //- Scripts
     script(src="assets/js/jquery.min.js")
     script(src="assets/js/particles.min.js")

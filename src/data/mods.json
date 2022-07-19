@@ -409,5 +409,145 @@
       "name": "Wing Slot Extra",
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2597324266"
     }
+  ],
+  "sb_mods": [
+    {
+      "name": "1 Hour Frogg Rotation",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=746238717"
+    },
+    {
+      "name": "1 Hour Lana Rotation",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=751138766"
+    },
+    {
+      "name": "1 Hour Weapon Shop Rotation",
+      "url" : "https://steamcommunity.com/sharedfiles/filedetails/?id=751137930"
+    },
+    {
+      "name": "Android Fluffalo",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=737358264"
+    },
+    {
+      "name": "Avali Race Mod",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=729558042"
+    },
+    {
+      "name": "Better Arcade Machines",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=902111753"
+    },
+    {
+      "name": "Ceiling Mounted Sprinkler",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=731592371"
+    },
+    {
+      "name": "Chat 2.0",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1495935387"
+    },
+    {
+      "name": "Chiptune Synthesizer",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1207308106"
+    },
+    {
+      "name": "Efficient Watering",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=730363398"
+    },
+    {
+      "name": "Enhanced Storage",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=731220462"
+    },
+    {
+      "name": "Extended Songbook",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=729427264"
+    },
+    {
+      "name": "Food Stack",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=729427436"
+    },
+    {
+      "name": "Frackin' Music",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=729492703"
+    },
+    {
+      "name": "Frackin' Universe",
+      "note": "Frackin' Universe now includes Frackin' Races.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=729480149"
+    },
+    {
+      "name": "FU BYOS Modded Race Patch",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1194878261"
+    },
+    {
+      "name": "Holographic Ruler",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=743604545"
+    },
+    {
+      "name": "Holographic Ruler Fix",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=883901189"
+    },
+    {
+      "name": "Hunger Enabler for Casual",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=729439608"
+    },
+    {
+      "name": "Inventory Interface Redone",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=729422192"
+    },
+    {
+      "name": "Mighty Music Song Pack",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=733987732"
+    },
+    {
+      "name": "Musical Merchants",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=747345375"
+    },
+    {
+      "name": "NyaaTech",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=737369146"
+    },
+    {
+      "name": "Perennial Crops",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=730378641"
+    },
+    {
+      "name": "Perennial Crops FU Patch",
+      "note": "Patches Perennial Crops to support Frackin' Universe crops.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=732277574"
+    },
+    {
+      "name": "Recipe Browser",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2018183533"
+    },
+    {
+      "name": "Recipe Browser FU Patch",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2018986916"
+    },
+    {
+      "name": "Scripted Artificial Intelligence Lattice",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=947429656"
+    },
+    {
+      "name": "Shreddys' Complex Blocks",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1485897036"
+    },
+    {
+      "name": "Stardust Core Lite",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532"
+    },
+    {
+      "name": "Musical Frying Pan",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1382195713"
+    },
+    {
+      "name": "WaveDiver Luthier + RealKeys",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=787043263"
+    },
+    {
+      "name": "Weapon Stats",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=729726478"
+    },
+    {
+      "name": "Whipcraft",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=736040732"
+    }
   ]
 }
