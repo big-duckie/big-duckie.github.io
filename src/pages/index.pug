@@ -37,6 +37,7 @@ html(lang="en")
           ul.actions.special
             li
               a.button(href="#sdv-mods") SDV Mods
+              a.button(href="#tml-mods") TML Mods
       #main
         article#sdv-mods
           h1.major Stardew Valley Mods
@@ -65,7 +66,7 @@ html(lang="en")
                     abbr(title="Shop Tile Framework")
                       a(href="https://www.nexusmods.com/stardewvalley/mods/5005") STF
               tbody
-                for mod in mods
+                for mod in sdv_mods
                   tr
                     td
                       a(href=mod.url, target="_blank")= mod.name
@@ -97,6 +98,23 @@ html(lang="en")
                       if mod.type
                         if mod.type.includes("stf")
                           i.fa.fa-check
+        article#tml-mods
+          h1.major Terraria Mods
+          p This is a full list of all the mods I use on Twitch.
+          .table-wrapper
+            table
+              thead
+                tr
+                  th Mod Name
+              tbody
+                for mod in tml_mods
+                  tr
+                    td
+                      a(href=mod.url, target="_blank")= mod.name
+                      if mod.note
+                        sup.note(title=mod.note) [
+                          span note
+                          | ]
       //- Footer
       footer#footer
         ul.copyright

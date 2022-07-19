@@ -60,6 +60,16 @@ ul.actions {
 		}
 	}
 
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		&:not(:first-child) {
+			margin-left: 1rem;
+		}
+	}
+
 	@include breakpoint('<=xsmall') {
 		&:not(.fixed) {
 			@include vendor('flex-direction', 'column');
@@ -87,6 +97,10 @@ ul.actions {
 				button,
 				.button {
 					width: 100%;
+
+					&:not(:first-child) {
+						margin-left: 1rem;
+					}
 
 					&.icon {
 						&:before {

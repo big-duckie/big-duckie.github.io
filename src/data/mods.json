@@ -1,5 +1,5 @@
 {
-  "mods": [
+  "sdv_mods": [
     {
       "name": "Advanced Casks Mod",
       "type": "ja+mfm",
@@ -278,6 +278,136 @@
     {
       "name": "Winter Grass",
       "url": "https://www.nexusmods.com/stardewvalley/mods/1601"
+    }
+  ],
+  "tml_mods": [
+    {
+      "name": "Begone, Evil!",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2669670918"
+    },
+    {
+      "name": "Better Boss Health Bar",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2643874827"
+    },
+    {
+      "name": "Better Extractinator",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2773928114"
+    },
+    {
+      "name": "Boss Cursor",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2816694149"
+    },
+    {
+      "name": "Calamity Mod",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072"
+    },
+    {
+      "name": "Calamity Mod Music",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2824688266"
+    },
+    {
+      "name": "Calamity's Vanities",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2824688804"
+    },
+    {
+      "name": "Cellphone is Wormhole",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2674701188"
+    },
+    {
+      "name": "Census",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2687866031"
+    },
+    {
+      "name": "Extra Pylons",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2797773802"
+    },
+    {
+      "name": "Fargo's Fallen Stars",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2567152289"
+    },
+    {
+      "name": "Fargo's Mutant Mod",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2570931073"
+    },
+    {
+      "name": "Fargo's Souls Mod",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2815540735"
+    },
+    {
+      "name": "imkSushi's Mod",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2828041071"
+    },
+    {
+      "name": "Lights and Shadow",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2670628346"
+    },
+    {
+      "name": "Magic Storage",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2563309347"
+    },
+    {
+      "name": "Max Stack Plus Extra",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2562915378"
+    },
+    {
+      "name": "OmniSwing",
+      "note": "Interferes with some items, primarily the Clickers from Clicker Class.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2614857307"
+    },
+    {
+      "name": "Ore Excavator",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2565639705"
+    },
+    {
+      "name": "Qwerty's Bosses and Items 2",
+      "note": "This mod is very buggy, and is not recommended for multiplayer.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2571804182"
+    },
+    {
+      "name": "Recipe Browser",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2619954303"
+    },
+    {
+      "name": "Reduced Grinding",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2802069787"
+    },
+    {
+      "name": "Shop Expander",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2828370879"
+    },
+    {
+      "name": "Shorter Respawn Time",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415"
+    },
+    {
+      "name": "Storms Additions",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2747380524"
+    },
+    {
+      "name": "Subworld Library",
+      "note": "Subworld support in multiplayer is stable-ish, depending on the mod.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2785100219"
+    },
+    {
+      "name": "Terrarchitect",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2799559538"
+    },
+    {
+      "name": "The Clicker Class",
+      "note": "Affected by OmnisSwing. Either disable OmniSwing, or blacklist all clickers.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2563277843"
+    },
+    {
+      "name": "The Stars Above",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2563862309"
+    },
+    {
+      "name": "Which Mod is this From?",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2563851005"
+    },
+    {
+      "name": "Wing Slot Extra",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2597324266"
     }
   ]
 }
