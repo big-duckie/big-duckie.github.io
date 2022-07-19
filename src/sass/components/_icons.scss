@@ -30,7 +30,7 @@
 				text-indent: 3.75em;
 				white-space: nowrap;
 
-				&:before {
+				&:before, &:after {
 					position: absolute;
 					top: 0;
 					left: 0;

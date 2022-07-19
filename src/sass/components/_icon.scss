@@ -8,6 +8,7 @@
 
 	.icon {
 		@include icon;
+		@include icon(false, regular, after);
 		position: relative;
 		border-bottom: none;
 
@@ -15,18 +16,18 @@
 			display: none;
 		}
 
-		&:before {
+		&:before, &:after {
 			line-height: inherit;
 		}
 
 		&.solid {
-			&:before {
+			&:before, &:after {
 				font-weight: 900;
 			}
 		}
 
 		&.brands {
-			&:before {
+			&:before, &:after {
 				font-family: 'Font Awesome 5 Brands';
 			}
 		}
