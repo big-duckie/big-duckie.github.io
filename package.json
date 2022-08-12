@@ -5,7 +5,9 @@
   "repository": "",
   "scripts": {
     "start": "env=PROD pug3 src/pages -o public --pretty -O options.js",
-    "dev": "env=DEV nodemon --watch src -e js,pug,json,scss --exec \"pug3 src/pages -o dev --pretty -O options.js\""
+    "start-win": "SET env=PROD && pug3 src/pages -o public --pretty -O options.js",
+    "dev": "env=DEV nodemon --watch src -e js,pug,json,scss --exec \"pug3 src/pages -o dev --pretty -O options.js\"",
+    "dev-win": "SET env=DEV && nodemon --watch src -e js,pug,json,scss --exec \"pug3 src/pages -o dev --pretty -O options.js\""
   },
   "keywords": [
     "pug",
