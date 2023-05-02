@@ -10,7 +10,7 @@ var assetpath = "src/assets",
   datapath = "src/data",
   sasspath = "src/sass",
   devpath = "dev",
-  publicpath = "public";
+  publicpath = "dist";
 
 if (fs.pathExistsSync(path.join(__dirname, devpath))) {
   fs.emptyDirSync(path.join(__dirname, devpath));
@@ -42,7 +42,7 @@ sassfiles.forEach((file) => {
 if (process.env.env.trim() == "DEV") {
   fs.copy("src/assets", "dev/assets");
 } else {
-  fs.copy("src/assets", "public/assets");
+  fs.copy("src/assets", "dist/assets");
 }
 
 module.exports = options;
